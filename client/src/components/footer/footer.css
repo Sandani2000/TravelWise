@@ -1,0 +1,35 @@
+.footer{
+  bottom: 0;
+  width: 100%;
+  width: 1024px;
+  font-size: 12px;
+  margin: auto;
+  padding-top: 20px;
+}
+
+.fLists{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 50px;
+}
+
+.fList{
+  list-style: none;
+  padding: 0;
+}
+
+.fListItem{
+  margin-bottom: 10px;
+  color: #003580;
+  cursor: pointer;
+}
+
+hr{
+  height: 1px;
+  width: 100%;
+  margin-bottom: 22px;
+  max-width: 1024px;
+  background-color: rgba(0, 0, 0, 0.514);
+  border: none;
+}

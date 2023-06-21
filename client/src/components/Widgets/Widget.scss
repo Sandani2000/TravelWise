@@ -1,0 +1,30 @@
+.Widget {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  padding: 20px 20px 10px 20px;
+  border-radius: 19px 19px 19px 18px;
+  height: 100px;
+
+  // from css generator web
+  //Widget shadow
+  box-shadow: -5px 6px 5px 0px rgba(190, 190, 190, 0.83);
+  -webkit-box-shadow: -5px 6px 5px 0px rgba(190, 190, 190, 0.83);
+  -moz-box-shadow: -5px 6px 5px 0px rgba(190, 190, 190, 0.83);
+
+  //   //widget background
+  //   background: #f7f3f3;
+  //   background: linear-gradient(34deg, #f7f3f3 0%, #eaeaea 20%);
+  //   background: -webkit-linear-gradient(34deg, #f7f3f3 0%, #eaeaea 20%);
+  //   background: -moz-linear-gradient(34deg, #f7f3f3 0%, #eaeaea 20%);
+
+  .icon {
+    font-size: 35px;
+  }
+  .info {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5px;
+    font-size: 20px;
+  }
+}

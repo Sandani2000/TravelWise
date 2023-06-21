@@ -1,0 +1,58 @@
+.Personal {
+  display: flex;
+  width: 100%;
+
+  .PersonalContainer {
+    background-color: rgb(242, 243, 247);
+    flex: 6;
+    padding: 0;
+
+    .subContainer {
+      height: 600px;
+      width: 1300px;
+      padding: 10px;
+      margin-top: 20px;
+
+      table {
+        width: 100%;
+        border: 3px solid #dee2e6;
+        border-radius: 5px;
+
+        thead {
+          background-color: #120140;
+          color: white;
+          text-align: center;
+        }
+      }
+
+      .dataTableTitle {
+        width: 100%;
+        color: rgb(16, 3, 3);
+        font-size: 25px;
+        margin-bottom: 10px;
+        float: right;
+        display: flex;
+        align-items: center;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        .link {
+          text-decoration: none;
+          color: rgb(21, 11, 80);
+          font-size: 16px;
+          font-weight: bold;
+          padding: 6px 10px;
+          border: 2px solid rgb(21, 11, 80);
+          border-radius: 5px;
+          cursor: pointer;
+
+          .iconAdd {
+            margin-right: 5px;
+            font-size: 18px;
+          }
+        }
+      }
+    }
+  }
+}

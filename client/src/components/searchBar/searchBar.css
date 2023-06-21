@@ -1,0 +1,210 @@
+.headerSearch {
+  position: relative;
+  height: 30px;
+  margin: auto;
+  background-color: white;
+  border: 2px solid #1a14047e;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 10px 0px;
+  border-radius: 5px;
+  width: 100%;
+  max-width: 1024px;
+}
+
+.minMaxFilter input{
+  width: 30px;
+  margin-left: 5px;
+  height: 9px;
+}
+
+.minMaxFilterPage {
+  display: none;
+}
+
+.headerSearchFilterPage.listContainer {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.headerSearchFilterPage.listWrapper {
+  width: 100%;
+  max-width: 1024px;
+  display: flex;
+  gap: 20px;
+}
+
+.headerSearchFilterPage.listSearch {
+  flex: 1;
+  background-color: #45818e;
+  padding: 10px;
+  border-radius: 10px;
+  position: sticky;
+  top: 10px;
+  height: max-content;
+}
+
+.headerSearchFilterPage.lsTitle {
+  font-size: 20px;
+  color: #555;
+  margin-bottom: 10px;
+}
+
+.headerSearchFilterPage.lsItem {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.headerSearchFilterPage.lsItem>label {
+  font-size: 12px;
+}
+
+.headerSearchFilterPage.lsItem>input {
+  height: 30px;
+  border: none;
+  padding: 5px;
+}
+
+.headerSearchFilterPage.lsItem>span {
+  height: 30px;
+  padding: 5px;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.headerSearchFilterPage.lsOptions {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+}
+
+.headerSearchFilterPage.lsOptionItem {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+  color: #555;
+  font-size: 12px;
+  height: 35px;
+}
+
+.headerSearchFilterPage.lsOptionItem input {
+  height: 10px;
+  display: none;
+}
+
+.headerSearchFilterPage.lsOptionInput {
+  width: 20px;
+  margin: 0;
+}
+
+.headerSearchFilterPage.listSearch>button {
+  padding: 10px;
+  background-color: #16537e;
+  color: white;
+  border: none;
+  width: 100%;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.headerSearchFilterPage.listSearch {
+  color: white;
+}
+
+.headerSearchFilterPage.lsOptionText {
+  color: white;
+}
+
+.headerSearchFilterPage.listResult {
+  flex: 3;
+}
+
+.headerIcon {
+  color: lightgray;
+}
+
+.headerSearchItem {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.headerSearchItem input {
+  margin-top: 18px;
+}
+
+.headerSearchItem select {
+  font-size: medium;
+  border: 1px solid rgba(0, 0, 0, 0.219);
+  border-radius: 5px;
+  padding: 2px 5px;
+}
+
+.headerSearchInput {
+  border: none;
+  outline: none;
+}
+
+.headerSearchInputFilterPage {
+  display: none;
+}
+
+.headerSearchText {
+  color: lightgray;
+  cursor: pointer;
+}
+
+.date {
+  position: absolute;
+  top: 50px;
+  z-index: 2;
+}
+
+.options {
+  z-index: 2;
+  position: absolute;
+  top: 50px;
+  background-color: white;
+  color: gray;
+  border-radius: 5px;
+  -webkit-box-shadow: 0px 0px 10px -5px rgba(0, 0, 0, 0.4);
+  box-shadow: 0px 0px 10px -5px rgba(0, 0, 0, 0.4);
+}
+
+.optionItem {
+  width: 200px;
+  display: flex;
+  justify-content: space-between;
+  margin: 10px;
+}
+
+.optionCounter {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 12px;
+  color: black;
+}
+
+.optionCounterButton {
+  width: 30px;
+  height: 30px;
+  border: 1px solid #16537e;
+  color: #16537e;
+  cursor: pointer;
+  background-color: white;
+}
+
+.optionCounterButton:disabled {
+  cursor: not-allowed;
+}
+
+.headerBottomWrapper {
+  text-align: center;
+}

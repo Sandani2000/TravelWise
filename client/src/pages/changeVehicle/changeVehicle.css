@@ -1,0 +1,33 @@
+.homeContainer{
+    position: relative;
+}
+
+.backButton {
+    background-color: #aaaaaa;
+        color: #fff;
+        border: none;
+        font-size: 1rem;
+        padding: 0.5rem 1rem;
+        border-radius: 0.25rem;
+}
+
+.backButton:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+.homeContainer form {
+    height: 650px;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+.homeContainer form div {
+    display: flex;
+    flex-direction: column;
+    height: 60px;
+    width: 100%;
+    margin-top: 10px;
+}
+

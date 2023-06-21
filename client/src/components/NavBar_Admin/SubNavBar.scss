@@ -1,0 +1,36 @@
+.SubNavBar {
+  display: flex;
+  justify-content: center;
+  border-radius: 5px;
+  font-size: 20px;
+  padding-top: 20px;
+
+  .left {
+    .mainList {
+      list-style: none;
+      display: flex;
+      margin: 0;
+      padding: 0;
+      gap: 50px;
+
+      li .Link {
+        color: rgb(96, 96, 96);
+        text-decoration: none;
+        cursor: pointer;
+      }
+
+      .Link:hover {
+        border-bottom: 3px solid rgb(11, 50, 11);
+      }
+
+      .Link:active {
+        color: black;
+        border-bottom: 3px solid rgb(11, 50, 11);
+      }
+
+      .subList {
+        justify-content: space-between;
+      }
+    }
+  }
+}

@@ -1,0 +1,115 @@
+.Edit {
+  display: flex;
+  background-color: rgb(255, 255, 255);
+
+  .container {
+    flex: 6;
+    display: flex;
+    flex-direction: column;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+    .top {
+      color: rgb(9, 9, 90);
+      margin-top: 60px;
+      margin-left: 100px;
+      margin-bottom: 20px;
+      display: flex;
+      position: relative;
+
+      .ArrowIcon {
+        font-size: 40px;
+        color: black;
+        position: absolute;
+        bottom: 30px;
+        left: -70px;
+      }
+      span {
+        font-size: 30px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+      }
+    }
+
+    .bottom {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+      form {
+        flex: 2;
+        margin-left: 100px;
+        margin-right: 100px;
+        background-color: rgb(254, 254, 255);
+        padding: 20px 30px;
+        border: 2px solid rgb(4, 14, 78);
+        border-radius: 20px;
+        box-shadow: -10px 7px 5px 5px rgba(213, 213, 213, 0.75);
+        -webkit-box-shadow: -10px 7px 5px 5px rgba(213, 213, 213, 0.75);
+        -moz-box-shadow: -10px 7px 5px 5px rgba(213, 213, 213, 0.75);
+
+        span {
+          font-weight: bold;
+          font-size: 20px;
+          border-left: 3.5px solid rgb(11, 130, 157);
+          padding-left: 8px;
+          color: rgb(11, 130, 157);
+          font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+        }
+        div {
+          margin-top: 10px;
+          margin-bottom: 5px;
+          position: relative;
+
+          input,
+          select {
+            border: 2px solid rgb(156, 156, 156);
+            border-radius: 6px;
+            width: 100%;
+          }
+
+          label {
+            position: absolute;
+            bottom: 30px;
+            padding-right: 5px;
+            padding-left: 4px;
+            margin-left: 8px;
+            border: 0px;
+            border-radius: 5px;
+            background-color: rgb(255, 255, 255);
+          }
+        }
+        .row1,
+        .row2,
+        .row5,
+        .row6 {
+          display: flex;
+          justify-content: space-between;
+          gap: 20px;
+
+          .form-group {
+            width: 100%;
+          }
+        }
+
+        #empDepartement,
+        .row4 {
+          margin-top: 22px;
+        }
+      }
+
+      .btn-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        button {
+          padding: 6px 25px;
+          font-weight: bold;
+          background-color: rgb(6, 19, 86);
+          border: 2px solid black;
+          border-radius: 10px;
+          color: rgb(255, 255, 255);
+        }
+      }
+    }
+  }
+}
