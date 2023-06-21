@@ -1,4 +1,4 @@
-# Y2S2 Project - TravelWise Travel Management System - Y2S2 Project
+# Project Name - TravelWise Travel Management System 
 This is a web-based application built with the MERN stack to deliver efficient and effective travel solutions for travelers and travel service providers.The system's primary functions include hotel reservation, flight reservation, employee, tourism destination, feedback and package, user, restaurant, and transportation management.
 
 # Batch 03
